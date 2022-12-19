@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Météo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+  <header>
+    <nav>
+      <h1>Ville à visiter</h1>
+      <input type="text" required id="cityInfo" placeholder="Entrer le nom d'une ville">
+      <input type="submit" id="sendInfo">
+    </nav>
+  </header>
+  <div class="box" id="myBox">
+    <div>
+      <div>
+        <h1 id="titleCity"></h1>
+      </div>
+      <div class="weather">
+        <p id="wind"></p>
+        <p id="lonCity"></p>
+        <p id="latCity"></p>
+        <p id="description"></p>
+        <p id="humidity"></p>
+        <p id="rotateWind"></p>
+        <p id="tempMin"></p>
+        <p id="tempMax"></p>
+        <p id="clouds"></p>
+        <p id="country"></p>
+        <p id="sealevel"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
